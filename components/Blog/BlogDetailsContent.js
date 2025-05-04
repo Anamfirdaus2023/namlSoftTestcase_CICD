@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import BlogSidebar from './BlogSidebar';
 import Link from 'next/link';
 import CommentsArea from './CommentsArea';
+import BlogSidebar from './BlogSidebar';
 
 class BlogDetailsContent extends Component {
     render() {

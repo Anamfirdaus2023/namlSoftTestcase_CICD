@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/bootstrap.min.css';
 // import("bootstrap")
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -17,7 +18,6 @@ import GoTop from '../components/Shared/GoTop';
 import CookieBanner from '../components/Common/CookieBanner';
 import { I18nextProvider } from 'react-i18next';
 import i18n from '../components/i18nFiles/i18n';
-
 
 
 
