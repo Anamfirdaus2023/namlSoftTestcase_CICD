@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import FaqsContent from './FaqsContent';
+import FaqsContent from '../components/Faqs/FaqsContent';
 
 describe('FaqsContent Component', () => {
   test('renders the FAQ section title and description', () => {

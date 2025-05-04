@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Features from './Features';
+import Features from '../components/HomeOne/Features';
 
 describe('Features Component', () => {
   test('renders the Features component with all elements', () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import ContactInfo from './ContactInfo';
+import ContactInfo from '../components/Contact/ContactInfo';
 
 describe('ContactInfo Component', () => {
   test('renders the corporate office information', () => {

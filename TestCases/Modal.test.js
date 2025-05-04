@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import axios from 'axios';
-import Modal from './Modal';
+import Modal from '../components/DilogueBox/Modal';
 
 // Mock axios
 jest.mock('axios');

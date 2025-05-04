@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import HomeLanding from './HomeLanding';
+import HomeLanding from '../components/HomeOne/HomeLanding';
 
 // Mock next/link
 jest.mock('next/link', () => {

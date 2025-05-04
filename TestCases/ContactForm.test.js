@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import axios from 'axios';
-import ContactForm from './ContactForm';
+import ContactForm from '../components/Contact/ContactForm';
 
 // Mock axios
 jest.mock('axios');
